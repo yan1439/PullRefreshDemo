@@ -1,9 +1,17 @@
 # PullRefreshDemo
 使用MVCHelper和ultra库的demo
+
+
+
+
 实现：
 1、顶部自动加载
 2、底部刷新
 3、顶部可自定义
+
+
+
+
 
 如：
         PtrClassicFrameLayout mPtrFrameLayout = (PtrClassicFrameLayout) findViewById(R.id.rotate_header_list_view_frame);
