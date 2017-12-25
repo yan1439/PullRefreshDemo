@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private void initView() {
         findViewById(R.id.mvc_helper_common_btn).setOnClickListener(this);
         findViewById(R.id.mvc_helper_complex_btn).setOnClickListener(this);
+        findViewById(R.id.btn_test).setOnClickListener(this);
     }
 
     @Override
@@ -32,6 +33,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.mvc_helper_complex_btn:
                 startActivity(new Intent(this, ComplexMVCHelperActivity.class));
+                break;
+            case R.id.btn_test:
+                startActivity(new Intent(this, TestActivity.class));
                 break;
         }
     }
